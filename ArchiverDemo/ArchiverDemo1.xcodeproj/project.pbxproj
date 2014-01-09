@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184D10E1165DFBAC0019DA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184D10E0165DFBAC0019DA8A /* Foundation.framework */; };
+		184D10E4165DFBAC0019DA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D10E3165DFBAC0019DA8A /* main.m */; };
+		184D10E8165DFBAC0019DA8A /* ArchiverDemo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 184D10E7165DFBAC0019DA8A /* ArchiverDemo1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		184D10DA165DFBAC0019DA8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				184D10E8165DFBAC0019DA8A /* ArchiverDemo1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		184D10DC165DFBAC0019DA8A /* ArchiverDemo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArchiverDemo1; sourceTree = BUILT_PRODUCTS_DIR; };
+		184D10E0165DFBAC0019DA8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		184D10E3165DFBAC0019DA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184D10E6165DFBAC0019DA8A /* ArchiverDemo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArchiverDemo1-Prefix.pch"; sourceTree = "<group>"; };
+		184D10E7165DFBAC0019DA8A /* ArchiverDemo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArchiverDemo1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184D10D9165DFBAC0019DA8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D10E1165DFBAC0019DA8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184D10D1165DFBAC0019DA8A = {
+			isa = PBXGroup;
+			children = (
+				184D10E2165DFBAC0019DA8A /* ArchiverDemo1 */,
+				184D10DF165DFBAC0019DA8A /* Frameworks */,
+				184D10DD165DFBAC0019DA8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184D10DD165DFBAC0019DA8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184D10DC165DFBAC0019DA8A /* ArchiverDemo1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184D10DF165DFBAC0019DA8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184D10E0165DFBAC0019DA8A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		184D10E2165DFBAC0019DA8A /* ArchiverDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				184D10E3165DFBAC0019DA8A /* main.m */,
+				184D10E7165DFBAC0019DA8A /* ArchiverDemo1.1 */,
+				184D10E5165DFBAC0019DA8A /* Supporting Files */,
+			);
+			path = ArchiverDemo1;
+			sourceTree = "<group>";
+		};
+		184D10E5165DFBAC0019DA8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184D10E6165DFBAC0019DA8A /* ArchiverDemo1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184D10DB165DFBAC0019DA8A /* ArchiverDemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184D10EB165DFBAC0019DA8A /* Build configuration list for PBXNativeTarget "ArchiverDemo1" */;
+			buildPhases = (
+				184D10D8165DFBAC0019DA8A /* Sources */,
+				184D10D9165DFBAC0019DA8A /* Frameworks */,
+				184D10DA165DFBAC0019DA8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiverDemo1;
+			productName = ArchiverDemo1;
+			productReference = 184D10DC165DFBAC0019DA8A /* ArchiverDemo1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184D10D3165DFBAC0019DA8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wei.chen;
+			};
+			buildConfigurationList = 184D10D6165DFBAC0019DA8A /* Build configuration list for PBXProject "ArchiverDemo1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 184D10D1165DFBAC0019DA8A;
+			productRefGroup = 184D10DD165DFBAC0019DA8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184D10DB165DFBAC0019DA8A /* ArchiverDemo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184D10D8165DFBAC0019DA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D10E4165DFBAC0019DA8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		184D10E9165DFBAC0019DA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		184D10EA165DFBAC0019DA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		184D10EC165DFBAC0019DA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiverDemo1/ArchiverDemo1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184D10ED165DFBAC0019DA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArchiverDemo1/ArchiverDemo1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184D10D6165DFBAC0019DA8A /* Build configuration list for PBXProject "ArchiverDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D10E9165DFBAC0019DA8A /* Debug */,
+				184D10EA165DFBAC0019DA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184D10EB165DFBAC0019DA8A /* Build configuration list for PBXNativeTarget "ArchiverDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D10EC165DFBAC0019DA8A /* Debug */,
+				184D10ED165DFBAC0019DA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184D10D3165DFBAC0019DA8A /* Project object */;
+}
